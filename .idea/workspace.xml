@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cd7de5b-899b-42f6-814d-1b4225f7a6e8" name="Default Changelist" comment="" />
+    <list default="true" id="9cd7de5b-899b-42f6-814d-1b4225f7a6e8" name="Default Changelist" comment="bbb">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbiz/src/main/java/cn/itrip/biz/Impl/ItripHotelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbiz/src/main/java/cn/itrip/biz/ItripHotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbiz/target/classes/META-INF/itripbiz.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbiz/target/classes/cn/itrip/biz/Impl/ItripHotelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbiz/target/classes/cn/itrip/biz/ItripHotelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripauth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripauth/src/test/java/cn/itrip/ItripauthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/src/test/java/cn/itrip/ItripauthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripdao/target/classes/mapper/ItripUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/mapper/ItripUserMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/itripbeans/target/" />
@@ -57,7 +70,32 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itripbiz/src/main/java/cn/itrip/biz/ItripUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-109">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -80,6 +118,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,10 +130,8 @@
         <option value="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/control/UserController.java" />
         <option value="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/com/ucpaas/restDemo/SysConfig.java" />
         <option value="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/ItripUserMapper.java" />
-        <option value="$PROJECT_DIR$/itripauth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/com/ucpaas/restDemo/client/AbsRestClient.java" />
         <option value="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/com/ucpaas/restDemo/client/JsonReqClient.java" />
-        <option value="$PROJECT_DIR$/itripauth/src/test/java/cn/itrip/ItripauthApplicationTests.java" />
         <option value="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/com/RestTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/itriputils/pom.xml" />
@@ -129,11 +166,13 @@
         <option value="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripProductStoreMapper.xml" />
         <option value="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripTradeEndsMapper.xml" />
         <option value="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserLinkUserMapper.xml" />
-        <option value="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserMapper.xml" />
         <option value="$PROJECT_DIR$/itriputils/src/main/java/cn/itrip/common/BigDecimalUtil.java" />
         <option value="$PROJECT_DIR$/itriputils/src/main/java/cn/itrip/common/EmptyUtils.java" />
         <option value="$PROJECT_DIR$/itripbiz/src/main/java/cn/itrip/biz/ItripUserService.java" />
         <option value="$PROJECT_DIR$/itripbiz/src/main/java/cn/itrip/biz/ItripUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserMapper.xml" />
+        <option value="$PROJECT_DIR$/itripauth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itripauth/src/test/java/cn/itrip/ItripauthApplicationTests.java" />
         <option value="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java" />
       </list>
     </option>
@@ -158,13 +197,24 @@
     <option name="width" value="1132" />
     <option name="height" value="494" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -174,10 +224,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -186,7 +237,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -220,6 +271,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ItripauthApplication">
+    <configuration name="ItripauthApplicationTests.s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itripauth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itrip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itrip" />
+      <option name="MAIN_CLASS_NAME" value="cn.itrip.ItripauthApplicationTests" />
+      <option name="METHOD_NAME" value="s" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItripauthApplicationTests.testMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="itripauth" />
       <extension name="coverage">
@@ -245,6 +312,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItripauthApplicationTests.s" />
         <item itemvalue="JUnit.ItripauthApplicationTests.testMail" />
       </list>
     </recent_temporary>
@@ -270,6 +338,11 @@
       <workItem from="1566877912667" duration="242000" />
       <workItem from="1566886862705" duration="4211000" />
       <workItem from="1566891842985" duration="34000" />
+      <workItem from="1566981339349" duration="1385000" />
+      <workItem from="1566982751678" duration="235000" />
+      <workItem from="1566983434429" duration="2936000" />
+      <workItem from="1566989982186" duration="339000" />
+      <workItem from="1567038265112" duration="820000" />
     </task>
     <servers />
   </component>
@@ -277,11 +350,23 @@
     <history-entry file="ItripauthApplicationTests_testMail - 2019.08.26 at 15h 45m 18s.xml">
       <configuration name="ItripauthApplicationTests.testMail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ItripauthApplicationTests_testMail - 2019.08.28 at 17h 45m 24s.xml">
+      <configuration name="ItripauthApplicationTests.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItripauthApplicationTests_s - 2019.08.28 at 17h 55m 20s.xml">
+      <configuration name="ItripauthApplicationTests.s" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItripauthApplicationTests_s - 2019.08.28 at 17h 55m 58s.xml">
+      <configuration name="ItripauthApplicationTests.s" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItripauthApplicationTests_s - 2019.08.28 at 17h 56m 42s.xml">
+      <configuration name="ItripauthApplicationTests.s" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22299000" />
+    <option name="totallyTimeSpent" value="28400000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -293,7 +378,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3267776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3214826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -302,16 +387,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.051107325" />
+      <window_info anchor="bottom" id="Messages" order="1" visible="true" weight="0.051194537" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.15502556" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.26235095" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.092150174" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.102389075" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -328,21 +413,67 @@
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.4095563" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.15502556" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.6808874" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39863715" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.69453925" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.051194537" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.6757679" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32879046" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bbb" />
+    <option name="LAST_COMMIT_MESSAGE" value="bbb" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/com/ucpaas/restDemo/client/JsonReqClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/com/ucpaas/restDemo/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -628,16 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/ItripUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/beans/ItripUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -705,20 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itripauth/src/test/java/cn/itrip/ItripauthApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="184" column="41" selection-start-line="184" selection-start-column="41" selection-end-line="184" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itriputils/src/main/java/cn/itrip/common/BigDecimalUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -741,10 +848,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/itripdao/src/main/resources/mapper/ItripUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/ItripUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itripauth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itripauth/src/test/java/cn/itrip/ItripauthApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="155" column="94" selection-start-line="155" selection-start-column="94" selection-end-line="155" selection-end-column="94" />
+        <state relative-caret-position="240">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -753,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/itripbiz/src/main/java/cn/itrip/biz/ItripUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="-109">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

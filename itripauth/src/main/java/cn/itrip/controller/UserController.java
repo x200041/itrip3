@@ -4,17 +4,13 @@ import cn.itrip.beans.ItripUser;
 import cn.itrip.biz.ItripUserServiceImpl;
 import cn.itrip.biz.MailService;
 import cn.itrip.com.ucpaas.restDemo.client.JsonReqClient;
-import cn.itrip.common.Dto;
-import cn.itrip.common.EmptyUtils;
-import cn.itrip.common.MD5;
-import cn.itrip.common.TokenService;
+import cn.itrip.common.*;
 import org.springframework.mail.MailException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.text.SimpleDateFormat;
@@ -22,8 +18,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-
-import static org.apache.logging.log4j.ThreadContext.isEmpty;
 
 @Controller
 @RequestMapping(value = "/user")
@@ -36,6 +30,9 @@ public class UserController {
 
     @Resource
     private MailService mailService;
+
+    @Resource
+    private RedisUtil redisUtil;
 
     @RequestMapping(value = "/index", method = RequestMethod.POST, produces = "application/json", headers = "header")
     @ResponseBody
@@ -126,12 +123,21 @@ public class UserController {
         String uid = "";//用户透传ID，随状态报告返回
         try {
             String result = new JsonReqClient().sendSms(sid, token, appid, templateid, param, mobile, uid);
-            System.out.println("Response content is: " + result);
+            redisUtil.setex("mobile", param, 2 * 60);
+            System.out.println(param);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    @RequestMapping(value = "/validationPhone", method = RequestMethod.GET, produces = "application/json", headers = "header")
+    @ResponseBody
+    public void validationPhone(String param) {
+        String value = redisUtil.get("mobile");
+        if (value.equals(param)) {
+            System.out.println("验证通过");
+        }
+    }
 
     /**
      * 产生随机的6位数字字符串
@@ -158,7 +164,7 @@ public class UserController {
         //判断是否存在
         if (userCodeexist == null) {
             //判断是否为null
-            String pwd = MD5.getMd5(itripUser.getUserName(), 32);
+            String pwd = MD5.getMd5(itripUser.getUserPassword(), 32);
             itripUser.setUserPassword(pwd);
             result = itripUserServiceImpl.insertSelective(itripUser);
             if (result > 0) {
@@ -172,15 +178,43 @@ public class UserController {
 
 
     public void Mail(String userCode, String userName, String param) {
-        String to = userCode; /*"1421705953@qq.com";*/
+        String to = userCode;
         String subject = "爱旅行邮箱注册码";
         String content = "亲爱的" + userName + "先生/女士,你本次验证码是" + param;
         try {
             mailService.sendSimpleMail(to, subject, content);
+            redisUtil.setex("validationMail" + userCode, param, 2 * 60);
+            System.out.println(param);
             System.out.println("成功了");
         } catch (MailException e) {
             System.out.println("失败了");
             e.printStackTrace();
         }
     }
+
+    @RequestMapping(value = "/validationMail", method = RequestMethod.GET, produces = "application/json", headers = "header")
+    @ResponseBody
+    public void validationMail(String userCode, String param) {
+        System.out.println(userCode + param);
+        int result = 0;
+        ItripUser userCodeexist = itripUserServiceImpl.userCodeexist(userCode);
+        if (EmptyUtils.isEmpty(userCodeexist)) {
+            System.out.println("未能找到用户");
+        } else {
+            if (userCodeexist.getActivated() == 1) {
+                System.out.println("该用户已激活");
+            } else {
+                String value = redisUtil.get("validationMail" + userCode);
+                if (value.equals(param)) {
+                    System.out.println("验证通过");
+                    userCodeexist.setActivated(1);
+                    result = itripUserServiceImpl.updateByitripUser(userCodeexist);
+                    if (result > 0) {
+                        System.out.println("激活成功");
+                    }
+                }
+            }
+        }
+    }
+
 }

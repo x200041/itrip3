@@ -5,13 +5,8 @@ spring:
   mail:
     host: smtp.qq.com
     username: 2298012215@qq.com
-    password: qdxmvrupqkzjecih
+    password: rfrtaklealxlebca
     default-encoding: utf-8
-  #mail:
-  #  host: smtp.qq.com
-  #  username: 2628273055@qq.com
-  #  password: fjqfeszqcoaldiii  #第一次那个授权码
-  #  default-encoding: utf-8
   redis:
     host: 127.0.0.1
     # Redis服务器连接端口

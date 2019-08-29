@@ -1,5 +1,7 @@
 package cn.itrip;
 
+import cn.itrip.beans.ItripUser;
+import cn.itrip.biz.ItripUserServiceImpl;
 import cn.itrip.biz.MailService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +17,8 @@ public class ItripauthApplicationTests {
 
     @Resource
     MailService mailService;
-
+    @Resource
+    private ItripUserServiceImpl itripUserServiceImpl;
 
     @Test
     public void testMail() throws Exception {
@@ -31,5 +34,11 @@ public class ItripauthApplicationTests {
             System.out.println("失败了");
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void s() {
+        ItripUser userCodeexist = itripUserServiceImpl.userCodeexist("1421705953@qq.com");
+        System.out.println(userCodeexist.getUserName());
     }
 }

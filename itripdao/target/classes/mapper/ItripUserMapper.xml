@@ -184,7 +184,7 @@
             <if test="modifyDate != null">
                 modifyDate = #{modifyDate,jdbcType=TIMESTAMP},
             </if>
-            <if test="modifiedby != null">
+            <if test="modifiedBy != null">
                 modifiedBy = #{modifiedBy,jdbcType=BIGINT},
             </if>
             <if test="activated != null">
